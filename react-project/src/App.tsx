@@ -2,8 +2,8 @@ import { useEffect, useReducer } from "react";
 import './App.css'
 import logo from './images/logo.png';
 
-let language = "TypeScript";
-let moon = "🌙";
+// let language = "TypeScript";
+// let moon = "🌙";
 
 function Header({name, year}: {name: string, year: number}) {
 	return (
